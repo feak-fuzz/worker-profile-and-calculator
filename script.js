@@ -8,7 +8,7 @@ window.onload = function() {
         limit,
         zero,
         period,
-        operator;
+        operation;
     
         screen = document.getElementById("result");
     
@@ -92,7 +92,7 @@ window.onload = function() {
         },false);
     
     
-         var elem1 = document.querySelectorAll(".operator");
+         var elem1 = document.querySelectorAll(".operation");
     
           var len1 = elem1.length;
     
@@ -100,7 +100,7 @@ window.onload = function() {
     
             elem1[i].addEventListener("click",function() {
     
-            operator = this.value;
+            operation = this.value;
     
              if(screen.innerHTML === "") {
     
@@ -110,7 +110,7 @@ window.onload = function() {
     
             else if(output) {
     
-                screen.innerHTML = output.concat(operator);
+                screen.innerHTML = output.concat(operation);
     
             }
     
