@@ -7,7 +7,7 @@ body {
   #background {
       width:300px;
       height:400px;
-      background:gray;
+      background:rgb(209, 64, 64);
       margin:50px auto;
       -webkit-animation:bgChange 1s 1s alternate infinite;
       transition: all 1s ease;
