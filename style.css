@@ -7,14 +7,10 @@ body {
   #background {
       width:300px;
       height:400px;
-      background:rgb(224, 182, 182);
-      -webkit-animation:bgChange 2s 2s alternate infinite;
+      background:gray;
+      margin:50px auto;
+      -webkit-animation:bgChange 1s 1s alternate infinite;
       transition: all 1s ease;
-      margin-bottom: 20px;
-      position: relative;
-      top:10px;
-      display:block;
-      font-family: sans-serif;
   }
   
   button {
